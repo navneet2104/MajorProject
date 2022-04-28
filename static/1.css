@@ -1,0 +1,26 @@
+body{
+    background: url(../static/images/about_logo.jpg) no-repeat center center fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+  }
+
+.hi{
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    font-style: italic;
+    color: rgb(3, 3, 3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fi{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    font-weight: 600;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(71, 70, 4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

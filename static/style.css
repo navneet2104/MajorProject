@@ -1,0 +1,78 @@
+body {
+  background: url(../static/images/2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.first{
+  background: url(../static/images/about_logo.jpg) no-repeat center center fixed;
+  height: 10vh;
+  width: 100%;
+}
+
+.container{
+  background: none;
+  font-size: xx-large;
+    font-style: italic;
+    color: rgb(13, 13, 13);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.jumb{
+  position: absolute;
+  left: 300px;
+  right: 300px;
+  top: 500px;
+}
+.rowHeight {
+  background:none;
+
+}
+
+.colHeight {
+  background-color: #555;
+
+}
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 1s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid #222f3e;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #222f3e;
+    }
+}
+
+.D, .S {
+  color: #48dbfb;
+}
+
+i {
+  margin-left: 20px;
+  margin-top: 10px;
+}
